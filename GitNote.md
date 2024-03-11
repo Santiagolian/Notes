@@ -151,8 +151,30 @@ git提取远程仓库的更新
 fork
 
 `git clone <repo> `   将远程Git仓库拷贝到本地  
+> git bash `shift+insert`粘贴
 
 master是Git的默认分支名
 
 origin是Git克隆的仓库服务器的默认名
 
+
+shell工具
+
+```
+查看对应的汇编代码
+objdump -d a.exe
+```
+
+```
+readelf -a a.out | less
+```
+
+
+```
+gcc --verbose  .c -static
+
+gcc -wl,--verbose  .c -static
+
+gcc -c hello.c  编译
+ls hello.o 链接
+```
